@@ -11,6 +11,11 @@
             <RouterLink class="nav-link" to="/formulario">Formulario</RouterLink>
           </li>
         </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <RouterLink class="nav-link" to="/usuarios">Usuarios</RouterLink>
+          </li>
+        </ul>
       </div>
     </nav>
   </section>
@@ -30,7 +35,9 @@
       }
     },
     methods: {
-
+      // goToContadores() {
+      //   this.$router.push('/contadores')
+      // }
     },
     computed: {
 
@@ -40,8 +47,3 @@
 
 </script>
 
-<style scoped lang="css">
-  .src-componentes-navbar {
-
-  }
-</style>

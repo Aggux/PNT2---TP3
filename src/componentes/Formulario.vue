@@ -1,6 +1,5 @@
 <template>
-
-<section class="src-componentes-formulario">
+<section>
   <div class="jumbotron">
     <h2>Componente Formulario</h2>
     <hr>
@@ -76,8 +75,6 @@
 
     <br>
     
-   
-
     <div class="table-responsive">
       <table class="table table-dark" >
         <tr>
@@ -95,7 +92,6 @@
     </div>
   </div>
 </section>
-
 </template>
 
 <script>
@@ -157,26 +153,4 @@ export default {
 }
 
 </script>
-
-<style scoped lang="css">
-  .jumbotron {
-      background-color: brown;
-      color: white;
-  }
-
-  h2 {
-      color: white;
-  }
-
-  hr {
-      background-color: #eee;
-  }
-
-  label {
-      text-transform: capitalize;
-  }
-
-  pre {
-      color: white;
-  }
-</style>
+<style></style>

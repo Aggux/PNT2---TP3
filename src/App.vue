@@ -1,11 +1,11 @@
-<template>
-  <div class="container mt-3">
-    <div class="jumbotron">
+<template class="fondo">
+  <!-- <div class="container mt-3"> -->
+    <div class="">
       <Navbar />
       <RouterView />
 
     </div>
-  </div>
+  <!-- </div> -->
 </template>
 
 <script>
@@ -19,10 +19,24 @@ export default {
 </script>
 
 <style>
-  h1 {
-    color: crimson;
+  .jumbotron {
+    background-color: white;
+    color: black;
   }
+
   h2 {
-    color: blue;
+    color: black;
+    text-align: center;
+  }
+
+  hr {
+    background-color: black;
+  }
+
+  label {
+    text-transform: capitalize;
+  }
+  #app{
+    background-color: black;
   }
 </style>

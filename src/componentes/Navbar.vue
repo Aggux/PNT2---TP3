@@ -35,9 +35,6 @@
       }
     },
     methods: {
-      // goToContadores() {
-      //   this.$router.push('/contadores')
-      // }
     },
     computed: {
 
@@ -46,4 +43,4 @@
 
 
 </script>
-
+<style></style>

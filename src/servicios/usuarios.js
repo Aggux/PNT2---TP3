@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = "https://665bb84f3e4ac90a04d7dac6.mockapi.io/api/TP3PNT/Usuarios";
+const URL = "https://6668e8ef2e964a6dfed33e70.mockapi.io/Usuarios";
 
 export async function getUsuarios() {
   try {
